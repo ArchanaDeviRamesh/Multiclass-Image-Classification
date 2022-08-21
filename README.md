@@ -5,8 +5,11 @@ Multiclass Image Classification in predicting the type of shoe using Convolution
 # Repository folders 
 
 * "data" folder contains the following 
+
   -- train dataset with 711 images 
+  
   -- test dataset with 114 images
+  
   -- Each folder has 3 subfolders for the classes of shoes namely Adidas, Converse, and Nike
 
 * "code" folder contains the .py and .ipython files of the implementation
