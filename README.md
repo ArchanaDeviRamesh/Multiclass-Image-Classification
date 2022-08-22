@@ -24,17 +24,17 @@ Multiclass Image Classification in predicting the type of shoe using Convolution
     * Therefore instead of creating a neural network from scratch we transfer the learned features that is the weights of the network 
 
 * Preprocessing 
-  *  For preprocessing of images, the blog https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html was referred. 
-  *  Since the dataset has less amount of images, data augmentation of images can be performed inorder to improve the performance of the model
-  *  This blog describes about the ImageDataGenerator class which is the Keras API to perform data augmentation and it has various parameters for doing different types of transformations like randomly rotate pictures, randomly translate pictures vertically or horizontally, randomly zooming inside pictures etc. 
+    *  For preprocessing of images, the blog https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html was referred. 
+    *  Since the dataset has less amount of images, data augmentation of images can be performed inorder to improve the performance of the model
+    *  This blog describes about the ImageDataGenerator class which is the Keras API to perform data augmentation and it has various parameters for doing different types of transformations like randomly rotate pictures, randomly translate pictures vertically or horizontally, randomly zooming inside pictures etc. 
   
  * Training and Evaluation 
-  * The training dataset is split as 80% for training and 20% for validation and the model is run for 30 epochs. 
-  * Optimization method used is Adam with learning rate 0.01, loss function is categorical cross entropy as evaluation metric used is accuracy
-  * The training and validation loss and accuracy are plotted. 
-  * From the graphs it can be seen that both training and validation loss decreases with the number of epochs, therefore overfitting is not there
+    * The training dataset is split as 80% for training and 20% for validation and the model is run for 30 epochs. 
+    * Optimization method used is Adam with learning rate 0.01, loss function is categorical cross entropy as evaluation metric used is accuracy
+    * The training and validation loss and accuracy are plotted. 
+    * From the graphs it can be seen that both training and validation loss decreases with the number of epochs, therefore overfitting is not there
  
  * Testing
-   *  The test dataset is used to calculate the testing acuuracy of the model
-   *  Predictions are calculated and the accuracy is reported
+    *  The test dataset is used to calculate the testing acuuracy of the model
+    *  Predictions are calculated and the accuracy is reported
 
