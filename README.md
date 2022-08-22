@@ -22,6 +22,8 @@ Multiclass Image Classification in predicting the type of shoe using Convolution
     * CNN with transfer learning is used with VGG16 being one of the most popular pretrained models trained on the large dataset called Imagenet. 
     * Since the initial layers of a CNN train on only low-level and mid-level features such as edges, lines, borders, etc., these characteristics of a pre-trained         CNN can be used here using the method of transfer learning. 
     * Therefore instead of creating a neural network from scratch we transfer the learned features that is the weights of the network 
+    * Initially the class distribution of both training and test dataset is plotted, from which it can be seen that the classes are evenly distributed
+    * More details are mentioned as comments within the code 
 
 * Preprocessing 
     *  For preprocessing of images, the blog https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html was referred. 
